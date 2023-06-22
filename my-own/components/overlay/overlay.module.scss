@@ -1,0 +1,22 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: var(--colors-neutral90);
+  opacity: 0;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+
+  z-index: var(--zIndices-overlay);
+}
+
+.open {
+  animation-name: overlayFadeIn;
+}
+
+.close {
+  animation-name: overlayFadeOut;
+}

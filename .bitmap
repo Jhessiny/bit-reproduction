@@ -9,6 +9,24 @@
  */
 
 {
+    "components/drawer": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "my-own/components/drawer",
+        "config": {
+            "teambit.react/react": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react"
+            }
+        }
+    },
+    "components/overlay": {
+        "scope": "",
+        "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "my-own/components/overlay"
+    },
     "components/portal": {
         "scope": "",
         "version": "0.0.1",

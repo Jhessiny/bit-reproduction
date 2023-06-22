@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2.5rem 1rem 1rem;
+  border-bottom: 1px solid var(--colors-neutral80);
+}
+
+.closeButton {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
